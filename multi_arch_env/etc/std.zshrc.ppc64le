@@ -1,0 +1,29 @@
+#
+#  This is the standard .zshrc file normally sourced from the users .zshrc
+#
+PATH=$PATH:\
+$DIRPATH/ppc64le/bin:\
+/bin:\
+/usr/bin:\
+/usr/local/bin:\
+/usr/X11R6/bin:\
+/usr/X/bin:\
+./
+export PATH
+
+#
+# Include CUDA Stuff
+#
+export PATH="/usr/local/cuda/bin:$PATH"
+export LD_LIBRARY_PATH="/usr/local/cuda/lib:$LD_LIBRARY_PATH"
+export USE_CUDA=1
+
+#
+# Environment variables for software packages
+#
+export R_LIBS=~/R
+
+#
+#Finalize the shell
+#
+export PS1="[ppc64le-zsh \u@\h \W]$ "
