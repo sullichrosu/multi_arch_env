@@ -19,6 +19,9 @@ The multi_arch_env folder is an open-source set of shell scripts used within a L
 
 1) Extract the downloaded zip file or git clone the repository.
 ```bash
+git clone https://github.com/sullichrosu/multi_arch_env
+```
+```bash
 unzip multi_arch_env.zip
 ```
 2) Move the folder to the path you plan to have users source long term. Generally a NFS based path like the example below where the folder /nfs is mounted to the infrastructure with different architecture types. These can be used locally on machines without NFS however you will need to have a copy on every machine over a central copy.
