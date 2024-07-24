@@ -1,0 +1,52 @@
+#####################################################################
+#
+#  OSU Multi Architecture Environment System (multi_arch_env)
+#                                                                   
+#  Copyright 2024
+#
+#  Christopher M. Sullivan
+#
+#  College of Earth, Ocean, and Atmospheric Sciences
+#  Oregon State University
+#  Corvallis, OR 97331
+#
+#  email: chris.sullivan@oregonstate.edu
+#
+# This program is not free software; you can not redistribute it
+# and/or modify it at all.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#
+#####################################################################
+
+#
+#  This is the global .bashrc file normally sourced from the users .bashrc
+#
+PATH=$PATH:\
+$DIRPATH/aarch64/bin:\
+/bin:\
+/usr/bin:\
+/usr/local/bin:\
+/usr/X11R6/bin:\
+/usr/X/bin:\
+./
+export PATH
+
+#
+# Include CUDA Stuff
+#
+export PATH="/usr/local/cuda/bin:$PATH"
+export LD_LIBRARY_PATH="/usr/local/cuda/lib:$LD_LIBRARY_PATH"
+export USE_CUDA=1
+
+#
+# Environment variables for software packages
+#
+export R_LIBS=~/R
+
+#
+#Finalize the shell
+#
+export PS1="[aarch64-bash \u@\h \W]$ "
