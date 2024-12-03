@@ -32,7 +32,7 @@ mv multi_arch_env /nfs/
 ```bash
 cd /nfs/multi_arch_env
 ```
-4) Edit the INSTALLDIR variable in the top of the Makefile and set it to the path of the folder if you have install it in a different path then /nfs/multi_arch_env :
+4) Edit the INSTALLDIR variable in the top of the Makefile and set it to the path of the folder if you have install it in a different path then /nfs/multi_arch_env. You can also change the value of the INSTALLDIR var from the command line by adding the variable after the make command (example: make INSTALLDIR=/usr/local).
 
 | Files to edit INSTALLDIR if different then above path /nfs/multi_arch_env |
 | :-----------------------------------------------------------------------: |
@@ -57,7 +57,7 @@ make
 | Compile Binaries | Architecture | Path |
 | ---------------- | ------------ | :--: |
 | Intel / AMD Binaries | x86_64 | /nfs/multi_arch_env/x86_64/bin |
-| NVIDIA Grace Hopper | aarch64 | /nfs/multi_arch_env/aarch64/bin |
+| NVIDIA Arm v9 | aarch64 | /nfs/multi_arch_env/aarch64/bin |
 | IBM POWER 10 | ppc64le | /nfs/multi_arch_env/ppc64le/bin |
 
 **Using Files / CLI**
