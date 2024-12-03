@@ -68,7 +68,7 @@ make
 
 <br>
 
-<p align="center">
+<p align="left">
   <img width="326" height="245" src="/images/MultiArch_Prompt.png">
 </p>
 
