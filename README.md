@@ -17,10 +17,6 @@ The multi_arch_env folder is an open-source set of shell scripts used within a L
 1) UNIX / Linux Shell Environments
 2) Compiled binaries for each architecture needed to support your infrastructure.
 
-<p align="center">
-  <img width="326" height="245" src="/images/MultiArch_Prompt.png">
-</p>
-
 
 
 **Installation:**
@@ -68,6 +64,14 @@ make
 | Intel / AMD Binaries | x86_64 | /nfs/multi_arch_env/x86_64/bin |
 | NVIDIA Arm Neoverse V2 | aarch64 | /nfs/multi_arch_env/aarch64/bin |
 | IBM POWER 10 | ppc64le | /nfs/multi_arch_env/ppc64le/bin |
+
+
+<br>
+
+<p align="center">
+  <img width="326" height="245" src="/images/MultiArch_Prompt.png">
+</p>
+
 
 **Using Files / CLI**
 ========================================================================================
