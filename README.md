@@ -57,7 +57,7 @@ make
 | Compile Binaries | Architecture | Path |
 | ---------------- | ------------ | :--: |
 | Intel / AMD Binaries | x86_64 | /nfs/multi_arch_env/x86_64/bin |
-| NVIDIA Arm v9 | aarch64 | /nfs/multi_arch_env/aarch64/bin |
+| NVIDIA Arm Neoverse V2 | aarch64 | /nfs/multi_arch_env/aarch64/bin |
 | IBM POWER 10 | ppc64le | /nfs/multi_arch_env/ppc64le/bin |
 
 **Using Files / CLI**
