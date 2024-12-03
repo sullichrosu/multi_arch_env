@@ -89,9 +89,15 @@ make
 ```bash
 source /nfs/multi_arch_env/etc/std.bashrc
 ```
+<p align="center">
+  <img width="609" height="280" src="/images/MultiArch_BASH.png">
+</p>
 ```bash
 source /nfs/multi_arch_env/etc/std.cshrc
 ```
+<p align="center">
+  <img width="609" height="276" src="/images/MultiArch_CSH.png">
+</p>
 ```bash
 source /nfs/multi_arch_env/etc/std.zshrc
 ```
